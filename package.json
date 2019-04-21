@@ -1,0 +1,61 @@
+{
+  "name": "jsx-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ag-grid-community": "^20.2.0",
+    "ag-grid-vue": "^20.2.0",
+    "element-ui": "^2.4.5",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.6",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": 0,
+      "arrow-parens": 0,
+      "generator-star-spacing": 0,
+      "space-before-function-paren": 0,
+      "standard/computed-property-even-spacing": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
